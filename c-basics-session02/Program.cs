@@ -31,6 +31,7 @@
             //Compile-time Error
 
             int pages = 464;
+            Console.WriteLine(pages);
 
             #endregion
 
@@ -61,6 +62,16 @@
 
             int Pages = 300;
             double Pages2 = Pages;
+            Console.WriteLine(Pages2);
+
+            #endregion
+
+            #region Question 6
+
+            //Q06. Declare a double price = 49.99; then convert it into an int using a cast.
+            double price = 49.99;
+            int price2 = (int)price;
+            Console.WriteLine(price2);
 
             #endregion
 
