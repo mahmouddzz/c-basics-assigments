@@ -17,6 +17,15 @@
             Console.WriteLine(mahmoud_book);
             #endregion
 
+            #region Qustion 2 
+            //Using the Book class above, print the result of calling ToString(), Equals() (compare book with itself), GetHashCode(), and GetType() on book.
+
+            Console.WriteLine(book1.ToString());
+            Console.WriteLine(book1.Equals(book1));
+            Console.WriteLine(book1.GetHashCode());
+            Console.WriteLine(book1.GetType());
+            #endregion
+
         }
     }
 }
