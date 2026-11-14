@@ -56,6 +56,14 @@
 
             #endregion
 
+            #region Question 5 
+            //Q05. Declare an int pages = 300; then store it in a double variable without using a cast.
+
+            int Pages = 300;
+            double Pages2 = Pages;
+
+            #endregion
+
         }
     }
 }
