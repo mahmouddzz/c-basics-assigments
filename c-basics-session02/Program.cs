@@ -34,6 +34,28 @@
 
             #endregion
 
+            #region Question 4
+            //Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide by zero", and then prints "Done" in a finally block.
+
+            int num1 = 0;
+            int num2 = 10;
+            try
+            {
+                int result = num2 / num1;
+            }
+
+            catch
+            {
+                Console.WriteLine("Cannot divide by zero");
+
+            }
+            finally
+            {
+                Console.WriteLine("Done");
+            }
+
+            #endregion
+
         }
     }
 }
