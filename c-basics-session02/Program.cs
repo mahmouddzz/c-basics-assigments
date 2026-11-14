@@ -115,6 +115,19 @@ namespace c_basics_session02
 
             #endregion
 
+            #region Qustion 10
+            //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int variable, and print both.
+
+            int copies = 100;
+
+            object obj = copies;
+            int copies2 = (int)obj;
+
+            Console.WriteLine(copies);
+            Console.WriteLine(copies2);
+
+            #endregion
+
         }
     }
 }
