@@ -140,6 +140,13 @@ namespace c_basics_session02
             Console.WriteLine(year.Value);
 
             #endregion
+
+            #region Question 12 
+            //Q12. Declare a string? reviewer = null;. Print whether it is null.
+            
+            string? reviewer = null;
+            Console.WriteLine(reviewer == null);
+            #endregion
         }
     }
 }
