@@ -44,7 +44,7 @@ namespace c_basics_session02
             int num2 = 10;
             try
             {
-                int result = num2 / num1;
+                int result_ = num2 / num1;
             }
 
             catch
@@ -103,6 +103,15 @@ namespace c_basics_session02
             }
 
 
+
+            #endregion
+
+            #region Question 9 
+            // Given int pages = 464;, convert it into a string using ToString() and print its type using GetType() to prove it's now a string.
+
+            string convertPages = pages.ToString();
+            Console.WriteLine(convertPages);
+            Console.WriteLine(convertPages.GetType());
 
             #endregion
 
