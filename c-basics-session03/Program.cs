@@ -3,6 +3,7 @@ using System;
 using System.Security.Cryptography;
 using System.Text;
 using System.Net.NetworkInformation;
+using System.Runtime.Intrinsics.X86;
 
 namespace c_basics_session03
 {
@@ -196,6 +197,23 @@ namespace c_basics_session03
                 Console.WriteLine(book);
             }
 
+
+            #endregion
+
+            #region Question 18 
+            //Write a method PrintFirstBook() that prints the first book in the books array. If the array is empty, use return to exit the method early instead of printing anything.
+
+            static void PrintFirstBook(string[] books)
+            {
+                if (books.Length == 0)
+                {
+                    return;
+                }
+
+                Console.WriteLine(books[0]);
+            }
+
+            PrintFirstBook(books);
 
             #endregion
         }
