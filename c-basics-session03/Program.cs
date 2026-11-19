@@ -128,11 +128,23 @@ namespace c_basics_session03
 
             string[] books = { "Clean Code", "The Pragmatic Programmer", "Refactoring" };
 
-            for (int i = 0; i < books.Length; i++)
+            for (int m = 0; m < books.Length; m++)
             {
-                Console.WriteLine($"{i + 1}. {books[i]}");
+                Console.WriteLine($"{m + 1}. {books[m]}");
             }
 
+            #endregion
+
+            #region Question 13 
+            //Using the same books array, use a while loop to print every book title.
+
+           int i = 0;
+
+            while (i < books.Length)
+            {
+                Console.WriteLine(books[i]);
+                i++;
+            }
             #endregion
         }
     }
