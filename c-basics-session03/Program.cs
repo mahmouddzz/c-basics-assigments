@@ -2,6 +2,7 @@
 using System;
 using System.Security.Cryptography;
 using System.Text;
+using System.Net.NetworkInformation;
 
 namespace c_basics_session03
 {
@@ -38,6 +39,15 @@ namespace c_basics_session03
             s_B.Append("Book List");
             s_B.Append("_Updated");
 
+            Console.WriteLine(s_B);
+
+
+            #endregion
+
+            #region Question 4
+            //Using the StringBuilder from the question above, use Replace() to change "Book List" into "Library". Print the result.
+
+            s_B.Replace("Book List", "Library");
             Console.WriteLine(s_B);
 
 
