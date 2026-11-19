@@ -62,6 +62,13 @@ namespace c_basics_session03
             Console.WriteLine("Book is :"  + title + " , Pages is : " + pages);
 
             #endregion
+
+            #region Question 6
+            //Build the same sentence as above, but using string interpolation ($"...").
+
+            Console.WriteLine($"Book: {title} , Pages: {pages}");
+
+            #endregion
         }
     }
 }
