@@ -159,6 +159,15 @@ namespace c_basics_session03
             }
             while (counter < 3);
             #endregion
+
+            #region Question 15
+            //Using the same books array, use a foreach loop to print every book title.
+
+            foreach (string book in books) 
+            {
+                Console.WriteLine(book);
+            }
+            #endregion
         }
     }
 }
