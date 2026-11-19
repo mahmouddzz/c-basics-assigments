@@ -69,6 +69,13 @@ namespace c_basics_session03
             Console.WriteLine($"Book: {title} , Pages: {pages}");
 
             #endregion
+
+            #region Question 7 
+            //Build the same sentence again, but using string.Format().
+
+            Console.WriteLine(string.Format("Book: {0} , Pages: {1}", title, pages));
+
+            #endregion
         }
     }
 }
